@@ -33,7 +33,7 @@ export default function Fullbg({
 
   return (
     <main
-      className="flex items-center justify-between flex-col w-full min-h-screen overflow-x-hidden text-white bg-cover bg-no-repeat bg-fixed"
+      className="flex items-center justify-between flex-col w-full min-h-screen overflow-x-hidden bg-local text-white bg-cover bg-no-repeat "
       style={{
         backgroundImage: `url(${backgroundImage.src})`,
       }}

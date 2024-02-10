@@ -5,6 +5,7 @@ import { Poppins } from "next/font/google";
 import sold from "../images/soldout.png";
 import Image from "next/image";
 import { Separator } from "./ui/separator";
+
 const font = Poppins({
   subsets: ["latin"],
   weight: ["600"],
