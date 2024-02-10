@@ -28,7 +28,7 @@ export default async function Home() {
         style={{ objectFit: "cover" }}
       />
 
-      <div className="flex items-center justify-center flex-col w-4/5 md:w-1/3 pt-7  ">
+      <div className="flex items-center justify-center flex-col w-4/5 md:w-1/3 pt-52 md:pt-7  ">
         <Eventlist event={event} />
         <ContactUs />
       </div>
