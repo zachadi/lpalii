@@ -43,7 +43,7 @@ export const Eventlist: React.FC<Event> = ({ event }) => {
               <div className="flex items-center justify-center w-full  flex-col">
                 {/*--------------------------------DATE PLACE-------------------------- */}
                 <div className="flex items-center justify-center  w-full gap-1 ">
-                  <h3 className={cn(" text-center text-2xl font-bold my-2",  font.className)}>
+                  <h3 className={cn(" text-center text-2xl my-2",  font.className)}>
                     {soonplace}
                   </h3>
                   <h2 className=" text-start flex items-center justify-center ">
