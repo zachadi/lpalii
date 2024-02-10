@@ -54,7 +54,7 @@ export function ContactUs() {
         className="w-3/4 space-y-6  py-5"
       >
         <h3 className=" text-center">
-          NEXT CONCERTS ?<br /> GET THE NEWS DIRECTLY INTO YOUR EMAIL !
+          NEXT CONCERTS ? GET THE NEWS DIRECTLY INTO YOUR EMAIL !
         </h3>
         <FormField
           control={form.control}
