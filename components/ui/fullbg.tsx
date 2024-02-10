@@ -15,7 +15,7 @@ export default function Fullbg({
       const [backgroundImage, setBackgroundImage] = useState(logo);
     useEffect(() => {
       const handleResize = () => {
-        const newBackgroundImage = window.innerWidth >= 768 ? logo : logoph;
+        const newBackgroundImage = window.innerWidth >= 500 ? logo : logoph;
         setBackgroundImage(newBackgroundImage);
       };
 
