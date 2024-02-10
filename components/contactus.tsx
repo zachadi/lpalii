@@ -63,7 +63,12 @@ export function ContactUs() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="Name" {...field} disabled={isPending} />
+                <Input
+                  className=" text-gray-900"
+                  placeholder="Name"
+                  {...field}
+                  disabled={isPending}
+                />
               </FormControl>
 
               <FormMessage />
@@ -77,7 +82,12 @@ export function ContactUs() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="Email" {...field} disabled={isPending} />
+                <Input
+                  placeholder="Email"
+                  className=" text-gray-900"
+                  {...field}
+                  disabled={isPending}
+                />
               </FormControl>
 
               <FormMessage />
@@ -91,7 +101,12 @@ export function ContactUs() {
             <FormItem>
               <FormLabel>City</FormLabel>
               <FormControl>
-                <Input placeholder="City" {...field} disabled={isPending} />
+                <Input
+                  placeholder="City"
+                  className=" text-gray-900"
+                  {...field}
+                  disabled={isPending}
+                />
               </FormControl>
 
               <FormMessage />
