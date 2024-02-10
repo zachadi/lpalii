@@ -22,7 +22,7 @@ export default async function Home() {
   return (
     <Fullbg>
       <Image
-        className=" flex items-center justify-center w-3/4 md:w-1/4 h-[185px] mt-7"
+        className=" flex items-center justify-center w-3/4 md:w-1/4 h-[185px] mt-5"
         src={logo}
         alt="Profile picture"
         style={{ objectFit: "cover" }}

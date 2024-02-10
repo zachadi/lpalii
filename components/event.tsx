@@ -35,7 +35,7 @@ export const Eventlist: React.FC<Event> = ({ event }) => {
           >
             {soon ? (
               //------------------------------------SOON----------------------------------
-              <h3 className="text-xl font-bold text-center ">
+              <h3 className="text-xl font-bold text-center py-3">
                 {soonplace} Soon ...
               </h3>
             ) : (
