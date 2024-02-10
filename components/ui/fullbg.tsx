@@ -1,6 +1,6 @@
 "use client";
 import logo from "../../images/bg.jpg";
-import logoph from "../../images/TEL.png";
+import logoph from "../../images/TEL2.png";
 import { useEffect, useState } from "react";
 
 export default function Fullbg({
@@ -33,7 +33,7 @@ export default function Fullbg({
 
   return (
     <main
-      className="flex items-center justify-between flex-col w-full min-h-screen overflow-x-hidden bg-local text-white bg-cover bg-no-repeat "
+      className="flex items-center justify-between flex-col min-h-screen overflow-x-hidden bg-local w-screen text-white bg-cover  bg-no-repeat  "
       style={{
         backgroundImage: `url(${backgroundImage.src})`,
       }}
