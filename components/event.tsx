@@ -1,13 +1,14 @@
 import { getevents } from "@/data/events";
 import Link from "next/link";
 import React from "react";
-import { Poppins } from "next/font/google";
+import { Rubik } from "next/font/google";
 import sold from "../images/soldout.png";
 import Image from "next/image";
 import { Separator } from "./ui/separator";
+import { cn } from "@/lib/utils";
 
-const font = Poppins({
-  subsets: ["latin"],
+const font = Rubik({
+  subsets: ["cyrillic"],
   weight: ["600"],
 });
 
@@ -42,7 +43,7 @@ export const Eventlist: React.FC<Event> = ({ event }) => {
               <div className="flex items-center justify-center w-full  flex-col">
                 {/*--------------------------------DATE PLACE-------------------------- */}
                 <div className="flex items-center justify-center  w-full gap-1 ">
-                  <h3 className=" text-center text-2xl font-bold my-2">
+                  <h3 className={cn(" text-center text-2xl font-bold my-2",  font.className)}>
                     {soonplace}
                   </h3>
                   <h2 className=" text-start flex items-center justify-center ">
