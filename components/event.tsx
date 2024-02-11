@@ -44,11 +44,11 @@ export const Eventlist: React.FC<Event> = ({ event }) => {
               //------------------------------------event--------------------------------
               <div className="flex items-center justify-center w-full  flex-col">
                 {/*--------------------------------DATE PLACE-------------------------- */}
-                <div className="flex items-center justify-center  w-full gap-1 ">
-                  <h3 className="text-start text-2xl  my-2 uppercase ">
+                <  div className="flex items-center justify-center  w-full gap-1 ">
+                  <h3 className={`${roboto.className} uppercase text-xl `}>
                     {soonplace}
                   </h3>
-                  <h2 className=" text-start flex items-center justify-center ">
+                  <h2 className=" text-start flex items-end justify-center ">
                     {date}
                   </h2>
                 </div>
