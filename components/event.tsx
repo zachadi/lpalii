@@ -1,17 +1,16 @@
-import { getevents } from "@/data/events";
 import Link from "next/link";
 import React from "react";
-import { Rubik } from "next/font/google";
+import { Roboto, Besley } from "next/font/google";
 import sold from "../images/soldout.png";
 import Image from "next/image";
 import { Separator } from "./ui/separator";
-import { cn } from "@/lib/utils";
 
-const font = Rubik({
-  subsets: ["cyrillic"],
+
+
+const roboto = Besley({
+  subsets: ["latin"],
   weight: ["600"],
 });
-
 interface Eventaray {
   soon: boolean;
   soonplace: string;
@@ -35,15 +34,18 @@ export const Eventlist: React.FC<Event> = ({ event }) => {
           >
             {soon ? (
               //------------------------------------SOON----------------------------------
-              <h3 className="text-xl font-bold text-center py-3">
-                {soonplace} Soon ...
-              </h3>
+              <div className=" flex items-end justify-center py-3 gap-1">
+                <span className={`${roboto.className} uppercase text-xl `}>
+                  {soonplace}
+                </span>
+                <h3 className="font-bold text-center ">Soon ...</h3>
+              </div>
             ) : (
               //------------------------------------event--------------------------------
               <div className="flex items-center justify-center w-full  flex-col">
                 {/*--------------------------------DATE PLACE-------------------------- */}
                 <div className="flex items-center justify-center  w-full gap-1 ">
-                  <h3 className={cn(" text-center text-2xl my-2",  font.className)}>
+                  <h3 className="text-start text-2xl  my-2 uppercase ">
                     {soonplace}
                   </h3>
                   <h2 className=" text-start flex items-center justify-center ">
