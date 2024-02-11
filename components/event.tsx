@@ -13,7 +13,7 @@ const roboto = Besley({
 });
 interface Eventaray {
   soon: boolean;
-  soonplace: string;
+  place: string;
   date: string;
   lien: string;
   SOLDOUT: boolean;
@@ -27,37 +27,35 @@ export const Eventlist: React.FC<Event> = ({ event }) => {
   return (
     <div>
       <div>
-        {event.map(({ soon, soonplace, date, lien, SOLDOUT }) => (
+        {event.map(({ soon, place, date, lien, SOLDOUT }) => (
           <div
-            key={soonplace}
+            key={place}
             className=" flex items-center justify-start  flex-col gap-3 "
           >
             {soon ? (
               //------------------------------------SOON----------------------------------
               <div className=" flex items-end justify-center py-3 gap-1">
                 <span className={`${roboto.className} uppercase text-xl `}>
-                  {soonplace}
+                  {place}
                 </span>
                 <h3 className="font-bold text-center ">Soon ...</h3>
               </div>
             ) : (
               //------------------------------------event--------------------------------
-              <div className="flex items-center justify-center w-full  flex-col">
+              <div className="flex items-center justify-center w-full  flex-col py-3">
                 {/*--------------------------------DATE PLACE-------------------------- */}
-                <  div className="flex items-center justify-center  w-full gap-1 ">
+                <div className="flex items-end justify-center  w-full gap-1 ">
                   <h3 className={`${roboto.className} uppercase text-xl `}>
-                    {soonplace}
+                    {place}
                   </h3>
-                  <h2 className=" text-start flex items-end justify-center ">
-                    {date}
-                  </h2>
+                  <h2 className=" text-start">{date}</h2>
                 </div>
                 {/*------------------------SOLDOUT---------------------------------------*/}
                 {SOLDOUT ? (
                   <Image
                     src={sold}
-                    alt="Profile picture"
-                    height={80}
+                    alt="SOULDOUT"
+                    height={50}
                     style={{ objectFit: "cover" }}
                   />
                 ) : (
