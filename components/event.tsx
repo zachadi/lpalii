@@ -5,8 +5,6 @@ import sold from "../images/soldout.png";
 import Image from "next/image";
 import { Separator } from "./ui/separator";
 
-
-
 const roboto = Besley({
   subsets: ["latin"],
   weight: ["600"],
@@ -34,11 +32,11 @@ export const Eventlist: React.FC<Event> = ({ event }) => {
           >
             {soon ? (
               //------------------------------------SOON----------------------------------
-              <div className=" flex items-end justify-center py-3 gap-1">
+              <div className=" flex items-end justify-center py-3 gap-1 md:gap-2">
                 <span className={`${roboto.className} uppercase text-xl `}>
                   {place}
                 </span>
-                <h3 className="font-bold text-center ">Soon ...</h3>
+                <h3 className=" text-center ">Soon ...</h3>
               </div>
             ) : (
               //------------------------------------event--------------------------------
