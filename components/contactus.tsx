@@ -51,10 +51,10 @@ export function ContactUs() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="w-3/4 space-y-6  py-5"
+        className="w-5/6 space-y-6  py-5"
       >
         <h3 className=" text-center">
-          NEXT CONCERTS ? GET THE NEWS DIRECTLY INTO YOUR EMAIL !
+          Next concerts, exclusive updates. Get them in your inbox!
         </h3>
         <FormField
           control={form.control}
