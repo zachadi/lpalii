@@ -1,6 +1,6 @@
 "use client";
 import logo from "../../images/bg.jpg";
-import logoph from "../../images/TEL3.png";
+import logoph from "../../images/TEL4.jpg";
 import { useEffect, useState } from "react";
 
 export default function Fullbg({
