@@ -42,7 +42,7 @@ export const Eventlist: React.FC<Event> = ({ event }) => {
               //------------------------------------event--------------------------------
               <div className="flex items-center justify-center w-full  flex-col py-3">
                 {/*--------------------------------DATE PLACE-------------------------- */}
-                <div className="flex items-end justify-center  w-full gap-1 ">
+                <div className="flex items-end justify-center  w-full gap-1  py-3">
                   <h3 className={`${roboto.className} uppercase text-xl `}>
                     {place}
                   </h3>
@@ -59,7 +59,7 @@ export const Eventlist: React.FC<Event> = ({ event }) => {
                 ) : (
                   <Link
                     href={lien}
-                    className="flex items-center justify-center bg-transparent text-white py-2 rounded-sm w-full hover:border "
+                    className="flex items-center justify-center bg-transparent text-white py-3 rounded-sm w-full border cursor-pointer " 
                   >
                     Buy Now
                   </Link>

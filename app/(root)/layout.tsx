@@ -4,8 +4,8 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "LAYALI AL MOHIBINE",
-  description: "LAYALI AL MOHIBINE",
+  title: "LAYALI AL MOUHIBINE",
+  description: "LAYALI AL MOUHIBINE by ALI ELMEDYDYs",
 };
 
 export default function RootLayout({

@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/root/lpalii/app/(root)/layout":["static/media/c9a5bc6a7c948fb0-s.p.woff2"],"/root/lpalii/app/(root)/page":["static/media/162d211dda31774e-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
