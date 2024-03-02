@@ -1,4 +1,4 @@
-// File: /root/lpalii/app/(root)/layout.tsx
+// File: C:\Users\pc\Desktop\WProgect\NEXT_PR\ALi_LP\lp1\app\(root)\layout.tsx
 import * as entry from '../../../../app/(root)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

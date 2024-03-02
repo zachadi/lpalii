@@ -16,6 +16,7 @@ interface Eventaray {
 
 export default async function Home() {
   const event: Eventaray[] = await getevents();
+ // console.log(event);
   return (
     <Fullbg>
       <Image
@@ -25,7 +26,7 @@ export default async function Home() {
         style={{ objectFit: "cover" }}
       />
 
-      <div className="flex items-center justify-center flex-col w-4/5 md:w-1/3 pt-72 sm:pt-6  ">
+      <div className="flex items-center justify-center flex-col w-4/5 md:w-1/3 pt-44 grow sm:pt-6  ">
         <Eventlist event={event} />
         <ContactUs />
       </div>

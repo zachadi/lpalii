@@ -1,1 +1,22 @@
-{"node":{"767cd7e41f8b4342eaa17adc49d9bd7d873038b0":{"workers":{"app/(root)/page":35081},"layer":{"app/(root)/page":"rsc"}},"bf730709beaed75d538aac3b8c9c7c81495d6a55":{"workers":{"app/(root)/page":45039},"layer":{"app/(root)/page":"action-browser"}}},"edge":{},"encryptionKey":"hPn0VMcwtF3u6iTJy7xmcwrj/HKGzHA5hHutGfwsZdc="}
+{
+  "node": {
+    "392ad27c907c94a1bee8e551bdf31323f659a399": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cpc%5C%5CDesktop%5C%5CWProgect%5C%5CNEXT_PR%5C%5CALi_LP%5C%5Clp1%5C%5Cdata%5C%5Cevents.ts%22%2C%5B%22getevents%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "dd574b68886af82c6a9bb94dc640bee22af566d6": {
+      "workers": {
+        "app/(root)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cpc%5C%5CDesktop%5C%5CWProgect%5C%5CNEXT_PR%5C%5CALi_LP%5C%5Clp1%5C%5Cactions%5C%5Ccontactus.ts%22%2C%5B%22constactus%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(root)/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "RvVRt8YdTP5y9N+rcomDP0t9TvuTa9WpCw1icItyY0s="
+}
