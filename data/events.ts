@@ -10,7 +10,7 @@ interface Event {
 
 export const getevents = async (): Promise<Event[]> => {
   try {
-    const res = await fetch('https://pastebin.com/raw/nN3xzDyi');
+    const res = await fetch('https://pastebin.com/raw/nN3xzDyi', { cache: 'no-store' });
 
     if (!res.ok) {
       throw new Error('Failed to fetch data');
