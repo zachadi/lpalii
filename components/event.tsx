@@ -20,7 +20,7 @@ interface Event {
   event: Array<Eventaray>;
 }
 export const Eventlist: React.FC<Event> = ({ event }) => {
-  // console.log(event);
+   //console.log(event);
   event;
   return (
     <div>

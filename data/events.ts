@@ -24,4 +24,5 @@ export const getevents = async (): Promise<Event[]> => {
     console.error('Error fetching data:', error);
     throw error; // Rethrow the error or handle it according to your needs
   }
+
 };

@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "LAYALI AL MOUHIBINE",
-  description: "LAYALI AL MOUHIBINE by ALI ELMEDYDYs",
+  description: "LAYALI AL MOUHIBINE by ALI EL MEDYDY",
 };
 
 export default function RootLayout({

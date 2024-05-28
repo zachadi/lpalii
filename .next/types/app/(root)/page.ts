@@ -1,4 +1,4 @@
-// File: C:\Users\pc\Desktop\WProgect\NEXT_PR\ALi_LP\lp1\app\(root)\page.tsx
+// File: /root/lpalii/app/(root)/page.tsx
 import * as entry from '../../../../app/(root)/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
